@@ -188,7 +188,7 @@ self.condition = len(nimmanager.nim_slots) > 9 and not nimmanager.nim_slots[9].e
 self.clearSelectedKeys()
 self.selectKey("LEFT")
 self.selectKey("RIGHT")
-			</code>
+		<!--	</code>
 		</step>
 		<step id="nimq">
 			<condition>
@@ -253,7 +253,6 @@ self.condition = nimmanager.somethingConnected()
 self.clearSelectedKeys()
 self.selectKey("OK")
 			</code>
-		</step>
 		<step id="plugins">
 			<condition>
 self.condition = config.misc.installwizard.hasnetwork.value and config.misc.installwizard.opkgloaded.value
@@ -261,6 +260,7 @@ self.condition = config.misc.installwizard.hasnetwork.value and config.misc.inst
 			<text value="Do you want to install Plugins?"/>
 			<config screen="InstallWizard" module="InstallWizard" args="2" type="ConfigList"/>
 			<code>
+			</step>-->
 self.clearSelectedKeys()
 self.selectKey("OK")
 			</code>
