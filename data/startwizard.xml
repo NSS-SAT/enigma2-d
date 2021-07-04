@@ -1,8 +1,5 @@
-<wizard>
-		<step id="start" nextstep="introduction">
-			<text value="Welcome.\n\nThis start wizard will guide you through the basic setup of your receiver.\nPress the OK button on your remote control to move to the next step."/>
-			<code>
-self.clearSelectedKeys()
+de>
+sel.clearSelectedKeys()
 self.selectKey("OK")
 			</code>
 		</step>
