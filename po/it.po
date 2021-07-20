@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi-enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-01 09:56+0000\n"
+"POT-Creation-Date: 2021-07-15 11:54+0200\n"
 "PO-Revision-Date: 2020-05-16 18:46+0200\n"
 "Last-Translator: Gringo <openpli@tiscali.it>\n"
 "Language-Team: www.linsat.net <spaeleus@croci.org>\n"
@@ -63,6 +63,10 @@ msgstr ""
 "\n"
 "Timer '%s' disabilitato!"
 
+#, fuzzy
+msgid " (+5 volt terrestrial)"
+msgstr "Terrestre"
+
 msgid " (0 - all networks)"
 msgstr " (0 - tutte le reti)"
 
@@ -83,6 +87,10 @@ msgstr " (Radio)"
 msgid " (TV)"
 msgstr " (TV)"
 
+#, fuzzy
+msgid " (auto detection)"
+msgstr "Selezione dell'audio"
+
 msgid " (disabled)"
 msgstr " (disabilitato)"
 
@@ -95,6 +103,12 @@ msgstr " (prevalente rispetto a qualsiasi motore automatico)"
 msgid " (lower than any auto)"
 msgstr " (secondario rispetto a qualsiasi automatico)"
 
+msgid " - Unicable/JESS LNBs not found"
+msgstr ""
+
+msgid " Warning: the selected tuner should not use SCR Unicable type for LNBs because each tuner need a own SCR number."
+msgstr ""
+
 msgid " extensions."
 msgstr " estensioni."
 
@@ -106,6 +120,9 @@ msgstr " ms"
 
 msgid " packages selected."
 msgstr " pacchetti selezionati."
+
+msgid " unicable LNB input of rotor"
+msgstr ""
 
 msgid " updates available."
 msgstr " aggiornamenti disponibili."
@@ -382,10 +399,6 @@ msgstr "%s%d min"
 msgid "%s/%s: %s"
 msgstr "%s/%s: %s"
 
-#, python-format
-msgid "%s:%s"
-msgstr "%s:%s"
-
 msgid "(VU+ type)"
 msgstr "(tipo VU+)"
 
@@ -420,6 +433,9 @@ msgstr "-NESSUN CANALE\n"
 #, python-format
 msgid "-SERVICE ERROR:%d\n"
 msgstr "-ERRORE CANALE:%d\n"
+
+msgid "/T"
+msgstr ""
 
 msgid "/s"
 msgstr "/s"
@@ -984,12 +1000,6 @@ msgstr "Anche in stato di sospensione"
 msgid "Alternative"
 msgstr "Alternativa"
 
-msgid "Alternative 1"
-msgstr "Alternativa 1"
-
-msgid "Alternative 2"
-msgstr "Alternativa 2"
-
 msgid "Alternative URL for images listed on FlashImage"
 msgstr "URL alternativo per le immagini elencate sul FlashImage"
 
@@ -1436,6 +1446,12 @@ msgstr "Schermo nero"
 msgid "Black screen till locked"
 msgstr "Schermo nero fino al segnale"
 
+msgid "Blindscan"
+msgstr ""
+
+msgid "Blindscan terrestrial (if possible)"
+msgstr ""
+
 msgid "Block noise reduction"
 msgstr "Riduzione disturbo a blocchi"
 
@@ -1764,6 +1780,9 @@ msgstr "Verificare la connessione a Internet"
 
 msgid "Check the internet connection again"
 msgstr "Verificare di nuovo la connessione a Internet"
+
+msgid "Checking ONID/TSID"
+msgstr ""
 
 msgid "Checking filesystem..."
 msgstr "Verifica filesystem in corso..."
@@ -3177,6 +3196,10 @@ msgstr "Incorporato"
 msgid "Emergency"
 msgstr ""
 
+#, fuzzy
+msgid "Empty Trash"
+msgstr "Slot vuoto"
+
 msgid "Empty slot"
 msgstr "Slot vuoto"
 
@@ -3376,6 +3399,9 @@ msgstr "Inserire il numero memorizzato nel motore che corrisponde a questo satel
 
 msgid "Enter the service pin"
 msgstr "Inserire il codice PIN del canale"
+
+msgid "Enter valid ONID/TSID"
+msgstr ""
 
 msgid "Enter your current latitude. This is the number of degrees you are from the equator as a decimal."
 msgstr "Inserire la latitudine attuale. Questo valore rappresenta il numero di gradi decimali di distanza dall'equatore."
@@ -3663,6 +3689,13 @@ msgstr ""
 "FBC automatico\n"
 "non attivo"
 
+#, python-format
+msgid "FBC socket %s"
+msgstr ""
+
+msgid "FBC virtual"
+msgstr ""
+
 msgid "FEC"
 msgstr "FEC"
 
@@ -3849,6 +3882,9 @@ msgstr "Le seguenti operazioni saranno eseguite dopo aver premuto il tasto OK!"
 msgid "Force legacy signal stats"
 msgstr "Forzare le statistiche del segnale legacy"
 
+msgid "Force zap to recording service in standby"
+msgstr ""
+
 msgid "Format"
 msgstr "Formato"
 
@@ -3929,15 +3965,12 @@ msgstr "Ulteriori opzioni"
 msgid "G"
 msgstr "G"
 
-msgid "GStreamer version: "
-msgstr "Versione GStreamer: "
-
 msgid "GUI Settings"
 msgstr "Impostazioni"
 
-
+#, fuzzy
 msgid "GUI Skin"
-msgstr "Impostazioni Skin"
+msgstr "Impostazioni"
 
 msgid ""
 "GUI needs a restart to apply a new language\n"
@@ -4120,7 +4153,7 @@ msgstr "Elenco HD"
 msgid "HD2400"
 msgstr "HD2400"
 
-msgid "HD60"
+msgid "HD60/Multibox/Multibox SE"
 msgstr ""
 
 msgid "HDMI"
@@ -4222,6 +4255,9 @@ msgstr "Nascondere i canali bloccati dal Controllo genitori"
 msgid "Hide player"
 msgstr "Nascondere il lettore"
 
+msgid "Hide sub-menu"
+msgstr ""
+
 msgid "Hide zap errors"
 msgstr "Nascondere gli errori nel cambio canale"
 
@@ -4299,6 +4335,9 @@ msgstr "I"
 
 msgid "I do not want to perform any service scans"
 msgstr "Non voglio effettuare nessuna scansione"
+
+msgid "I55SE/H7(new model)/H9(new model)/H9COMBO/H9TWIN/H9SE/H9COMBOSE/H10/H11"
+msgstr ""
 
 msgid "IDLE"
 msgstr "INATTIVO"
@@ -4584,6 +4623,9 @@ msgstr "Flash interna"
 msgid "Internal hdd only"
 msgstr "Solo disco rigido interno"
 
+msgid "Internet (ntp)"
+msgstr ""
+
 msgid "Interval between keys when repeating:"
 msgstr "Intervallo tra i tasti durante la ripetizione:"
 
@@ -4636,12 +4678,12 @@ msgstr "Israele"
 msgid ""
 "It seems you did not see all the eight arrow heads. This means your TV has overscan enabled, and is not configured properly.\n"
 "\n"
-"Please refer to your TV's manual to find how you can disable overscan on your TV. Look for terms like 'Just fit', 'Full width', etc. If you can't find it, ask other users at http://forums.nonsolosat.net.\n"
+"Please refer to your TV's manual to find how you can disable overscan on your TV. Look for terms like 'Just fit', 'Full width', etc. If you can't find it, ask other users at https://nonsolosat.net.\n"
 "\n"
 msgstr ""
 "Apparentemente non sono visibili tutte le punte delle 8 frecce. Quindi il televisore ha l'overscan abilitato e non è regolato correttamente.\n"
 "\n"
-"Consultare il manuale del televisore per conoscere come disabilitare l'overscan. Cercare termini come 'Adatta', 'Larghezza intera', ecc. Se necessario è possibile chiedere aiuto sul sito http://forums.nonsolosat.net.\n"
+"Consultare il manuale del televisore per conoscere come disabilitare l'overscan. Cercare termini come 'Adatta', 'Larghezza intera', ecc. Se necessario è possibile chiedere aiuto sul sito https://nonsolosat.net.\n"
 "\n"
 
 msgid "Italian"
@@ -5062,6 +5104,13 @@ msgstr "Mayotte"
 msgid "Media player"
 msgstr "Lettore multimediale"
 
+#, fuzzy
+msgid "Media player: GStreamer, version "
+msgstr "Versione GStreamer: "
+
+msgid "Media player: ffmpeg, version "
+msgstr ""
+
 msgid "Media scanner"
 msgstr "Ricerca multimediale"
 
@@ -5342,6 +5391,9 @@ msgstr "NO"
 
 msgid "NOW"
 msgstr "IN ONDA"
+
+msgid "NTP Hostname"
+msgstr ""
 
 msgid "NTSC"
 msgstr "NTSC"
@@ -5647,9 +5699,6 @@ msgstr "Norvegese"
 msgid "Not Installed"
 msgstr "Non Installato"
 
-msgid "Not Required"
-msgstr "Non Richiesto"
-
 msgid "Not associated"
 msgstr "Non associato"
 
@@ -5866,6 +5915,9 @@ msgstr "PID PMT"
 msgid "PPanel"
 msgstr "PPanel"
 
+msgid "PULSe 4K"
+msgstr ""
+
 msgid "Package list update"
 msgstr "Aggiornamento dell'elenco pacchetti"
 
@@ -6047,7 +6099,7 @@ msgstr ""
 "Configurare o verificare i server dei nomi (DNS) inserendo i parametri richiesti.\n"
 "Quando pronti, premere OK per continuare."
 
-msgid "Please configure the fallback tuner setup?"
+msgid "Please configure the fallback tuner setup"
 msgstr "Configurare il tuner del ricevitore remoto di fallback"
 
 msgid ""
@@ -7497,6 +7549,9 @@ msgstr "Selezionare la velocità con la quale la parabola si sposta tra i satell
 msgid "Select how the satellite dish is set up. i.e. fixed dish, single LNB, DiSEqC switch, positioner, etc."
 msgstr "Selezionare come è fatto l'impianto satellitare, ad es. parabola fissa, LNB singolo, switch DiSEqC, motore, ecc."
 
+msgid "Select how you want your receiver to keep the correct time, either from the DVB transponder, or from the internet using NTP. Or use Auto, which will favour using NTP, but will fall back to transponder time when no internet connection is available."
+msgstr ""
+
 msgid "Select input device"
 msgstr "Selezionare la periferica di ingresso"
 
@@ -8108,6 +8163,10 @@ msgstr "Mostrare gli indicatori di stato nell'elenco dei video"
 msgid "Show status icons in movielist"
 msgstr "Mostrare gli indicatori di stato nell'elenco dei video"
 
+#, fuzzy
+msgid "Show sub-menu"
+msgstr "Mostrare la lista di selezione dei canali in colonne a larghezza fissa"
+
 msgid "Show subservice selection"
 msgstr "Mostrare la selezione del sottocanale"
 
@@ -8228,7 +8287,7 @@ msgstr "Longitudine locale"
 
 #, python-format
 msgid "Skin & Resolution: %s (%sx%s)\n"
-msgstr "Skin e Risoluzione: %s (%sx%s)\n"
+msgstr "Skin e Risolutione: %s (%sx%s)\n"
 
 #, fuzzy
 msgid "Skin Selection Actions"
@@ -8592,6 +8651,10 @@ msgstr "Interrompere il flusso attuale"
 msgid "Stop entry"
 msgstr "Interrompere la voce"
 
+#, fuzzy
+msgid "Stop live TV service"
+msgstr "Andare all'ultimo canale"
+
 msgid "Stop play TV"
 msgstr "Interrompere la visione della TV"
 
@@ -8877,7 +8940,7 @@ msgstr ""
 msgid "TRANSLATOR_INFO"
 msgstr ""
 "Traduzione italiana\n"
-"OpenPLi Enigma2"
+"Nonsolosat Enigma2"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "File TS troppo grande per ISO9660 livello 1!"
@@ -9006,6 +9069,9 @@ msgstr ""
 msgid "The following files were found..."
 msgstr "Trovati i seguenti file..."
 
+msgid "The hostname or the IP address of the NTP server to synchronise the time with."
+msgstr ""
+
 msgid ""
 "The network wizard extension is not installed!\n"
 "Please install it."
@@ -9093,13 +9159,6 @@ msgstr "L'interfaccia utente del ricevitore adesso verrà riavviata per attivare
 msgid "The user interface of your receiver is restarting"
 msgstr "Riavvio dell'interfaccia utente del ricevitore in corso..."
 
-msgid ""
-"The user interface of your receiver is restarting\n"
-"due to an error in mytest.py"
-msgstr ""
-"L'interfaccia utente del ricevitore si sta riavviando\n"
-"a causa di un errore in mytest.py"
-
 msgid "The user interface of your receiver is restarting in debug mode"
 msgstr "L'interfaccia utente del ricevitore si riavvia in modalità debug"
 
@@ -9149,6 +9208,9 @@ msgstr ""
 msgid "This DVD RW medium is already formatted - reformatting will erase all content on the disc."
 msgstr "Il DVD-RW è già formattato - una nuova formattazione cancellerà tutto il contenuto del disco."
 
+msgid "This can be useful when using the CI(+) module. After the end of the recording, the service will be automatically stopped."
+msgstr ""
+
 #, python-format
 msgid "This field allows you to search an additional symbol rate up to %s."
 msgstr "Questo campo consente di ricercare dei symbol rate aggiuntivi fino a %s."
@@ -9167,6 +9229,9 @@ msgstr ""
 
 msgid "This is the order in which DiSEqC commands are sent to the aerial system. The order must correspond exactly with the order the physical devices are arranged along the signal cable (starting from the receiver end)."
 msgstr "Questo è l'ordine secondo il quale i comandi DiSEqC vengono inviati nell'impianto. L'ordine deve corrispondere esattamente all'ordine in cui i dispositivi fisici sono installati lungo il cavo di segnale (a partire dal lato ricevitore)."
+
+msgid "This not valid ONID/TSID"
+msgstr ""
 
 msgid "This option allows to reduce the block-noise in the picture. Obviously this is at the cost of the picture's sharpness."
 msgstr "Questa opzione consente di ridurre il disturbo a blocchi nell'immagine. Ciò comporterà purtroppo una riduzione della nitidezza dell'immagine."
@@ -9356,6 +9421,9 @@ msgstr ""
 msgid "This test detects your configured LAN adapter."
 msgstr "Questa prova controlla la scheda di rete locale installata."
 
+msgid "This valid ONID/TSID"
+msgstr ""
+
 msgid ""
 "This will (re-)calculate all positions of your rotor and may remove previously memorised positions and fine-tuning!\n"
 "Are you sure?"
@@ -9383,6 +9451,9 @@ msgstr "Orario"
 
 msgid "Time scale"
 msgstr "Scala del tempo"
+
+msgid "Time synchronization method"
+msgstr ""
 
 #, fuzzy
 msgid "Time zone"
@@ -9568,6 +9639,10 @@ msgid "Transmission mode"
 msgstr "Modalità di trasmissione"
 
 msgid "Transponder"
+msgstr "Transponder"
+
+#, fuzzy
+msgid "Transponder Time"
 msgstr "Transponder"
 
 msgid "Transport Stream Type"
@@ -9858,8 +9933,8 @@ msgstr "Aggiornamento del catalogo software in corso..."
 msgid "Upper case"
 msgstr ""
 
-#, fuzzy
-msgid "Uptime"
+#, fuzzy, python-format
+msgid "Uptime: %s\n"
 msgstr "Timer di spegnimento"
 
 msgid "Uruguay"
@@ -10022,6 +10097,9 @@ msgstr "File VOB"
 
 msgid "VU+"
 msgstr "Vu+"
+
+msgid "Valid ONID/TSID look at www.lyngsat.com..."
+msgstr ""
 
 msgid "Vanuatu"
 msgstr "Vanuatu"
@@ -10260,6 +10338,9 @@ msgstr ""
 
 msgid "Warning: no LNB; using factory defaults."
 msgstr "Attenzione: nessun LNB; utilizzati i valori predefiniti di fabbrica."
+
+msgid "Warning: the second input of this dual tuner may not support SCR LNBs. "
+msgstr ""
 
 msgid "Watch movies..."
 msgstr "Riprodurre i video..."
@@ -10936,9 +11017,6 @@ msgstr "Passato al canale del timer %s!"
 msgid "Zgemma H.S/H.2S/H.2H/H5/H7(old model)"
 msgstr "Zgemma H.S/H.2S/H.2H/H5/H7"
 
-msgid "Zgemma H7(new model)/H9(new model)/H9COMBO/H9TWIN/H10"
-msgstr ""
-
 msgid "Zgemma H9(old model)/I55Plus"
 msgstr ""
 
@@ -11001,6 +11079,10 @@ msgstr "dopo "
 
 msgid "all"
 msgstr "Tutte"
+
+#, fuzzy
+msgid "all tuners"
+msgstr "Impostazioni tuner del ricevitore remoto di fallback"
 
 msgid "alphabetic"
 msgstr "Alfabetico"
@@ -11548,6 +11630,10 @@ msgstr "Non supportato"
 msgid "not tested"
 msgstr "Non verificato"
 
+#, fuzzy
+msgid "not valid frontend"
+msgstr "Impossibile trovare un impianto satellitare!"
+
 msgid "not_tested"
 msgstr "Non verificato"
 
@@ -11671,6 +11757,10 @@ msgstr "Romanzo rosa"
 #, fuzzy
 msgid "rotor"
 msgstr "Motore: "
+
+#, fuzzy
+msgid "rotor is not used"
+msgstr "Sintonizzatore non supportato"
 
 msgid "running"
 msgstr "In esecuzione"
@@ -11984,9 +12074,6 @@ msgstr "Cambiare canale e registrare"
 
 msgid "zapped"
 msgstr "Cambiato!"
-
-msgid "Service searching"
-msgstr "Impostazioni ricerca"
 
 msgid "®"
 msgstr "®"
