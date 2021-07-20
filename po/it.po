@@ -3968,9 +3968,9 @@ msgstr "G"
 msgid "GUI Settings"
 msgstr "Impostazioni"
 
-#, fuzzy
+
 msgid "GUI Skin"
-msgstr "Impostazioni"
+msgstr "Impostazioni Skin"
 
 msgid ""
 "GUI needs a restart to apply a new language\n"
@@ -7229,7 +7229,7 @@ msgstr "Salvare"
 msgid "Save / Enter text and exit"
 msgstr "Inserire / Salvare e uscire"
 
-#, fuzzy
+
 msgid "Save and activate the currently selected skin"
 msgstr "Premere OK sul telecomando per attivare la skin selezionata."
 
@@ -12074,6 +12074,9 @@ msgstr "Cambiare canale e registrare"
 
 msgid "zapped"
 msgstr "Cambiato!"
+
+msgid "Service searching"
+msgstr "Impostazioni ricerca"
 
 msgid "®"
 msgstr "®"
